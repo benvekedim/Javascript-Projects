@@ -1,0 +1,46 @@
+
+html, body {
+    height: 100%;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    width: auto; 
+    flex-direction: column; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+button {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 40px;
+    font-size: 32px ;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+
+}
+#color{
+    padding: 30px;
+    font-size: 20px ;
+}
+
+
+button:hover {
+    background-color: gray;
+    color: #ffffff;
+    transition: .5s;
+}
+
+.card {
+    max-width: 450px;
+    max-height: 300px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+}
